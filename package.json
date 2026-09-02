@@ -1,0 +1,77 @@
+{
+  "version": "0.0.1",
+  "displayName": "Iemanjá",
+  "description": "An integrated blue theme for Visual Studio Code inspired by the colours of the sea and the night sky, providing a calm and focused coding environment.",
+  "name": "iemanja",
+  "author": "Thiago P B Bessimo",
+  "publisher": "thiagobessimo",
+  "homepage": "https://github.com/thiagobessimo/iemanja#readme",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagobessimo/iemanja.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thiagobessimo/iemanja/issues"
+  },
+  "engines": {
+    "vscode": "^1.113.0"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1a5ee5",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Iemanja",
+    "Iemanjá",
+    "Iara",
+    "Dark Theme",
+    "Light Theme",
+    "Cool Theme",
+    "Blue Theme",
+    "Minimalist",
+    "Minimalism",
+    "Tema Escuro",
+    "Tema Claro",
+    "Tema Azul",
+    "Minimalista",
+    "Minimalismo"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Iemanjá",
+        "uiTheme": "vs-dark",
+        "path": "./themes/iemanja.json"
+      },
+      {
+        "label": "Iara",
+        "uiTheme": "vs",
+        "path": "./themes/iara.json"
+      },
+      {
+        "label": "Iemanjá Lab",
+        "uiTheme": "vs-dark",
+        "path": "./themes/iemanja-lab.json"
+      },
+      {
+        "label": "Iara Lab",
+        "uiTheme": "vs",
+        "path": "./themes/iara-lab.json"
+      }
+    ]
+  },
+  "scripts": {
+    "theme": "tsx lib/generator.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}

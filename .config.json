@@ -1,0 +1,30 @@
+{
+  "author": "Thiago P B Bessimo",
+  "name": "Iemanjá",
+  "fileName": "iemanja",
+  "dark": {
+    "name": "Iemanjá",
+    "fileName": "iemanja"
+  },
+  "light": {
+    "name": "Iara",
+    "fileName": "iara"
+  },
+  "darkLab": {
+    "name": "Iemanjá Lab",
+    "fileName": "iemanja-lab"
+  },
+  "lightLab": {
+    "name": "Iara Lab",
+    "fileName": "iara-lab"
+  },
+  "folders": {
+    "positron": ".positron/extensions",
+    "vscode": ".vscode/extensions",
+    "zed": ".config/zed/themes"
+  },
+  "files": {
+    "vscodeSettings": "Library/Application Support/Code/User/settings.json"
+  },
+  "lab": "global"
+}
